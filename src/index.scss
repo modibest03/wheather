@@ -1,0 +1,39 @@
+:root {
+  --color-primary: #e7e7eb;
+  --color-secondary: ;
+  --color-tertiary: hsl(192, 70%, 51%);
+
+  --color-grey-1: #a09fb1;
+  --color-grey-2: #88869d;
+  --color-grey-3: #616475;
+
+  --color-blue-1: #3c47e9;
+  --color-blue-2: #1e213a;
+  --color-blue-3: #100e1d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Raleway", "Segoe UI",
+    "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+    "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 500;
+  color: var(--color-primary);
+}

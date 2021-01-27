@@ -1,0 +1,99 @@
+.wheathercondition {
+  background-color: var(--color-blue-2);
+  padding: 4.2rem 4.6rem;
+
+  &__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    & > button {
+      padding: 1rem 1.8rem;
+      font-size: 1.6rem;
+      background-color: #6e707a;
+      color: var(--color-primary);
+      outline: none;
+      cursor: pointer;
+    }
+
+    & > div > .MuiSvgIcon-root {
+      padding: 9px;
+      font-size: 4rem;
+      background-color: #6e707a;
+      border-radius: 10rem;
+      fill: var(--color-primary);
+    }
+  }
+
+  &__icons {
+    margin-top: 6.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    & > img:first-child {
+      position: absolute;
+      opacity: 10%;
+      width: 180%;
+    }
+
+    & > img:last-child {
+      width: 20.2rem;
+      height: 23.4rem;
+    }
+  }
+
+  &__degrees {
+    margin-top: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+
+    & > span:first-child {
+      font-size: 14.4rem;
+    }
+
+    & > span:last-child {
+      font-size: 4.8rem;
+      font-weight: 100;
+      font-family: "Raleway";
+    }
+  }
+
+  &__description {
+    margin: 8.7rem 0;
+    font-size: 3.6rem;
+    font-weight: 600;
+    color: var(--color-grey-1);
+    display: flex;
+    justify-content: center;
+  }
+
+  &__day {
+    margin-bottom: 3.2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: var(--color-grey-2);
+
+    & > span:first-child {
+      margin-right: 1.6rem;
+    }
+
+    & > span:last-child {
+      margin-left: 1.6rem;
+    }
+  }
+
+  &__location {
+    font-size: 1.8rem;
+    color: var(--color-grey-2);
+    display: flex;
+    justify-content: center;
+
+    & > span:first-child {
+      margin-right: 9px;
+    }
+  }
+}

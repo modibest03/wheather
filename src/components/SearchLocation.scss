@@ -1,0 +1,32 @@
+.searchlocation {
+  padding: 1rem 1.5rem;
+
+  &__close {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 3.5rem;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  & > ul {
+    margin-top: 5.8rem;
+
+    & > li {
+      margin-bottom: 5rem;
+      font-size: 1.9rem;
+      font-weight: 500;
+      list-style: none;
+      transition: all 0.3s;
+
+      &:hover {
+        border: 1px solid var(--color-grey-3);
+        padding: 2.2rem 1.2rem;
+        cursor: pointer;
+        transition: all 0.3s;
+      }
+    }
+  }
+}

@@ -11,7 +11,7 @@ function Left() {
       {search === "condition" ? (
         <WheatherCondition setSearch={setSearch} />
       ) : (
-        <SearchLocation />
+        <SearchLocation setSearch={setSearch} />
       )}
     </div>
   );

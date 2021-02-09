@@ -1,11 +1,14 @@
-import React from "react";
-
 import "./Right.scss";
+import Degree from "./Degree";
+import Card from "./Card";
+import DayHighlights from "./DayHighlights";
 
 function Right() {
   return (
     <div className="right">
-      <h1>right</h1>
+      <Degree />
+      <Card />
+      <DayHighlights />
     </div>
   );
 }

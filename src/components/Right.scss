@@ -1,5 +1,11 @@
 .right {
   background-color: var(--color-blue-3);
   flex-basis: 70%;
-  height: 100vh;
+  padding: 4.2rem 12.5rem;
+
+  &__avatar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 6.6rem;
+  }
 }

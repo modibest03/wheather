@@ -1,6 +1,6 @@
 import Form from "./Form";
 import "./SearchLocation.scss";
-import CloseIcon from "@material-ui/icons/Close";
+import { BsFillXCircleFill } from "react-icons/bs";
 
 function SearchLocation({ setSearch }) {
   return (
@@ -9,7 +9,8 @@ function SearchLocation({ setSearch }) {
         className="searchlocation__close"
         onClick={() => setSearch("condition")}
       >
-        <CloseIcon fontSize="large" />
+        {/* <CloseIcon fontSize="large" /> */}
+        <BsFillXCircleFill fontSize="3rem" color="#e7e7eb" />
       </div>
       <Form />
       <ul>

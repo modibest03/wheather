@@ -7,8 +7,8 @@ import shower from "../assets/Shower.png";
 
 function Card() {
   return (
-    <Flex justify="space-between">
-      <Box bg="#1E213A" p="1.8rem 2.2rem">
+    <Flex justify="space-between" wrap="wrap">
+      <Box bg="#1E213A" p="1.8rem 2.2rem" mb={{ base: "3.2rem", md: 0 }}>
         <Text fontSize="1.6rem" fontWeight="500" mb="1rem" color="#E7E7EB">
           Tomorrow
         </Text>
@@ -34,7 +34,7 @@ function Card() {
           </Box>
         </HStack>
       </Box>
-      <Box bg="#1E213A" p="1.8rem 2.2rem">
+      <Box bg="#1E213A" p="1.8rem 2.2rem" mb={{ base: "3.2rem", md: 0 }}>
         <Text fontSize="1.6rem" fontWeight="500" mb="1rem" color="#E7E7EB">
           Tomorrow
         </Text>
@@ -60,7 +60,7 @@ function Card() {
           </Box>
         </HStack>
       </Box>
-      <Box bg="#1E213A" p="1.8rem 2.2rem">
+      <Box bg="#1E213A" p="1.8rem 2.2rem" mb={{ base: "3.2rem", md: 0 }}>
         <Text fontSize="1.6rem" fontWeight="500" mb="1rem" color="#E7E7EB">
           Tomorrow
         </Text>
@@ -86,7 +86,7 @@ function Card() {
           </Box>
         </HStack>
       </Box>
-      <Box bg="#1E213A" p="1.8rem 2.2rem">
+      <Box bg="#1E213A" p="1.8rem 2.2rem" mb={{ base: "3.2rem", md: 0 }}>
         <Text fontSize="1.6rem" fontWeight="500" mb="1rem" color="#E7E7EB">
           Tomorrow
         </Text>

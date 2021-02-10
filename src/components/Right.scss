@@ -3,6 +3,10 @@
   flex-basis: 70%;
   padding: 4.2rem 12.5rem;
 
+  @media screen and (max-width: 480px) {
+    padding: 5rem;
+  }
+
   &__avatar {
     display: flex;
     justify-content: flex-end;
